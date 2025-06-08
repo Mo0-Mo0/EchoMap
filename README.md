@@ -17,3 +17,29 @@
 git clone git@github.com:Mo0-Mo0/EchoMap.git
 cd EchoMap
 pip install -r requirements.txt
+
+
+## Directory 
+
+echomap/
+├── scraper/
+│   ├── reddit_scraper.py
+│   ├── guardian_scraper.py
+│   └── yahoo_scraper.py
+├── detection/
+│   ├── detect_duplicates.py
+│   ├── clustering.py
+│   └── utils.py
+├── backend/
+│   ├── main.py (FastAPI)
+│   └── db.py (SQLAlchemy models)
+├── frontend/
+│   └── index.html (or Next.js)
+├── data/
+│   └── comments.db / comments.csv
+├── config/
+│   └── settings.py
+├── scheduler/
+│   └── job_runner.py (APScheduler/cron)
+└── Dockerfile
+
